@@ -16,7 +16,7 @@ public class Compare {
   }
 
   void printResults(Directory dir) {
-    System.out.println("+++++++++++++++ " + dir.getRoot() + " +++++++++++++++");
+    System.out.println("++++++++++++++++ " + dir.getRoot() + " ++++++++++++++++");
     for (File f : dir.getUniqueFiles()) {
       System.out.println(f.getPath());
     }
